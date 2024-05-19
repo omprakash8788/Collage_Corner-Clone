@@ -1,11 +1,15 @@
 import "./Programs.css";
 import { FaUserGraduate } from "react-icons/fa6";
+import program_1 from '../../assets/program-1.png'
+import program_2 from '../../assets/program-2.png'
+import program_3 from '../../assets/program-3.png'
+
 const Programs = () => {
   return (
     <div className="programs">
       <div className="program">
         <img
-          src="https://6600f9448007766cf67c6f48--super-kataifi-85949e.netlify.app/assets/program-1-DA_EvTPy.png"
+          src={program_1}
           alt=""
         />
         <div className="caption">
@@ -16,7 +20,7 @@ const Programs = () => {
 
       <div className="program">
         <img
-          src="	https://6600f9448007766cf67c6f48--super-kataifi-85949e.netlify.app/assets/program-2-DRqwF0EM.png"
+          src={program_2}
           alt=""
         />
         <div className="caption">
@@ -27,7 +31,7 @@ const Programs = () => {
 
       <div className="program">
         <img
-          src="	https://6600f9448007766cf67c6f48--super-kataifi-85949e.netlify.app/assets/program-3-C0g4YULi.png"
+          src={program_3}
           alt=""
         />
         <div className="caption">

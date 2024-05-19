@@ -1,13 +1,19 @@
 import './Campus.css'
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import gallery_1 from '../../assets/gallery-1.png'
+import gallery_2 from '../../assets/gallery-2.png'
+import gallery_3 from '../../assets/gallery-3.png'
+import gallery_4 from '../../assets/gallery-4.png'
+
+
 const Campus = () => {
   return (
     <div className='campus'>
         <div className='gallery'>
-         <img src="https://6600f9448007766cf67c6f48--super-kataifi-85949e.netlify.app/assets/gallery-1-HP2uKW94.png" alt="" />
-         <img src="https://6600f9448007766cf67c6f48--super-kataifi-85949e.netlify.app/assets/gallery-2-DYatBGZh.png" alt="" />
-         <img src="https://6600f9448007766cf67c6f48--super-kataifi-85949e.netlify.app/assets/gallery-3-C4KpO1U2.png" alt="" />
-         <img src="https://6600f9448007766cf67c6f48--super-kataifi-85949e.netlify.app/assets/gallery-4-LJEJ329C.png" alt="" />
+         <img src={gallery_1} alt="" />
+         <img src={gallery_2} alt="" />
+         <img src={gallery_3} alt="" />
+         <img src={gallery_4} alt="" />
         </div>
         <button className='btn dark-btn'>See more here <FaArrowAltCircleRight className="ar" /></button>
 

@@ -1,12 +1,13 @@
 import './About.css'
 import { FaRegPlayCircle } from "react-icons/fa";
+import about_img from '../../assets/about.png'
 
-const About = () => {
+const About = ({setPlay}) => {
   return (
     <div className='about'>
     <div className="about-left">
-      <img src='	https://6600f9448007766cf67c6f48--super-kataifi-85949e.netlify.app/assets/about-Bupj5-5F.png' alt="" className='about-img'/>
-      <FaRegPlayCircle className='play-icon'/>
+      <img src={about_img} alt="" className='about-img'/>
+      <FaRegPlayCircle className='play-icon' onClick={()=>setPlay(true)}/>
     </div>
     <div className="about-right">
       <h3>About University</h3>
